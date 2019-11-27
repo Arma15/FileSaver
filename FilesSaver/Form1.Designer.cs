@@ -39,6 +39,10 @@
             this.DestinationText = new System.Windows.Forms.TextBox();
             this.TimerSet_label = new System.Windows.Forms.Label();
             this.SetTime_button = new System.Windows.Forms.Button();
+            this.ProgressBar = new System.Windows.Forms.ProgressBar();
+            this.CopyCancel = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,7 +73,7 @@
             this.ActivatedBox.AutoSize = true;
             this.ActivatedBox.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ActivatedBox.ForeColor = System.Drawing.Color.Red;
-            this.ActivatedBox.Location = new System.Drawing.Point(347, 200);
+            this.ActivatedBox.Location = new System.Drawing.Point(357, 200);
             this.ActivatedBox.Name = "ActivatedBox";
             this.ActivatedBox.Size = new System.Drawing.Size(102, 19);
             this.ActivatedBox.TabIndex = 3;
@@ -166,6 +170,39 @@
             this.SetTime_button.UseVisualStyleBackColor = true;
             this.SetTime_button.Click += new System.EventHandler(this.BtnSetTime_Click);
             // 
+            // ProgressBar
+            // 
+            this.ProgressBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ProgressBar.Location = new System.Drawing.Point(594, 41);
+            this.ProgressBar.Name = "ProgressBar";
+            this.ProgressBar.Size = new System.Drawing.Size(214, 23);
+            this.ProgressBar.Step = 1;
+            this.ProgressBar.TabIndex = 13;
+            // 
+            // CopyCancel
+            // 
+            this.CopyCancel.Enabled = false;
+            this.CopyCancel.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CopyCancel.Location = new System.Drawing.Point(663, 12);
+            this.CopyCancel.Name = "CopyCancel";
+            this.CopyCancel.Size = new System.Drawing.Size(75, 23);
+            this.CopyCancel.TabIndex = 14;
+            this.CopyCancel.Text = "Copy now";
+            this.CopyCancel.UseVisualStyleBackColor = true;
+            this.CopyCancel.Click += new System.EventHandler(this.CopyCancelBtn_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(675, 65);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(40, 15);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "label1";
+            // 
             // Form1
             // 
             this.AllowDrop = true;
@@ -173,6 +210,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(818, 232);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.CopyCancel);
+            this.Controls.Add(this.ProgressBar);
             this.Controls.Add(this.SetTime_button);
             this.Controls.Add(this.TimerSet_label);
             this.Controls.Add(this.DestinationText);
@@ -211,6 +251,10 @@
         private System.Windows.Forms.TextBox DestinationText;
         private System.Windows.Forms.Label TimerSet_label;
         private System.Windows.Forms.Button SetTime_button;
+        private System.Windows.Forms.ProgressBar ProgressBar;
+        private System.Windows.Forms.Button CopyCancel;
+        private System.Windows.Forms.Label label1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 

@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Timers;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Threading;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Linq;
 
 namespace FilesSaver
 {
@@ -18,12 +19,16 @@ namespace FilesSaver
         static bool _timerSet;
         static bool _timerActive;
         static DateTime _scheduledTime;
+        long directorySize = 0;
+
+        /// *************************************  Status Bar Start code ***************************************************
 
         public Form1()
         {
             InitializeComponent();
             _timerSet = false;
             CreateTimer();
+            ChangeUI(false);
         }
 
         ~Form1()
@@ -31,23 +36,60 @@ namespace FilesSaver
             DisposeTimer();
         }
 
-        private void TimeChecker_Event(Object source, ElapsedEventArgs e)
+        private void ChangeUI(bool docopy)
         {
-            if (_timerSet && _timerActive)
-            {
-                if (_scheduledTime.Hour == DateTime.Now.Hour && _scheduledTime.Minute == DateTime.Now.Minute)
-                {
-                    Copy(_sourcePath, _destinationPath);
-                }
-            }
+            label1.Visible = docopy;
+            ProgressBar.Visible = docopy;
+            CopyCancel.Text = docopy ? "Cancel" : "Copy";
+            label1.Text = "Starting copy...";
+            ProgressBar.Value = 0;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void CopyCancelBtn_Click(object sender, EventArgs e)
         {
+            Copy();
+        }
+
+        private void Form1_Load(object sender, System.EventArgs e)
+        {
+            // Start the BackgroundWorker.
+            backgroundWorker1.RunWorkerAsync();
             // Initialize picker to yesterday.
             DateTime result = DateTime.Now;
             DateTimePicker.Format = DateTimePickerFormat.Time;
             DateTimePicker.ShowUpDown = true;
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            for (int i = 1; i <= 100; i++)
+            {
+                // Wait 100 milliseconds.
+                Thread.Sleep(100);
+                // Report progress.
+                backgroundWorker1.ReportProgress(i);
+            }
+        }
+
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            // Change the value of the ProgressBar to the BackgroundWorker progress.
+            ProgressBar.Value = e.ProgressPercentage;
+            // Set the text.
+            this.Text = e.ProgressPercentage.ToString();
+        }
+
+        /// *************************************  Status Bar End code ***************************************************
+
+        private void TimeChecker_Event(Object source, ElapsedEventArgs e)
+        {
+            if (_timerSet && _timerActive)
+            {
+                if (_scheduledTime.Hour == DateTime.Now.Hour && _scheduledTime.Minute == DateTime.Now.Minute && ActivatedBox.Checked)
+                {
+                    CopyCancelBtn_Click(this, EventArgs.Empty);
+                }
+            }
         }
 
         private void BrowseSource_Click(object sender, EventArgs e)
@@ -59,7 +101,7 @@ namespace FilesSaver
             {
                 _sourcePath = fbd.SelectedPath;
                 SourceText.Text = _sourcePath;
-                Source_label.ForeColor = Color.Green;
+                Source_label.ForeColor = Color.LightGreen;
             }
             else
             {
@@ -80,7 +122,7 @@ namespace FilesSaver
             {
                 _destinationPath = fbd.SelectedPath;
                 DestinationText.Text = _destinationPath;
-                Destination_label.ForeColor = Color.Green;
+                Destination_label.ForeColor = Color.LightGreen;
             }
             else
             {
@@ -92,23 +134,62 @@ namespace FilesSaver
             fbd.Dispose();
         }
 
-        public static void Copy(string sourceDirectory, string targetDirectory)
+        private void Copy()
         {
-            var diSource = new DirectoryInfo(sourceDirectory);
-            var diTarget = new DirectoryInfo(targetDirectory);
+            var diSource = new DirectoryInfo(_sourcePath);
+            var diTarget = new DirectoryInfo(_destinationPath);
+            FileSize(diSource);
 
             CopyAll(diSource, diTarget);
         }
 
-        public static void CopyAll(DirectoryInfo source, DirectoryInfo target)
+        private void FileSize(DirectoryInfo source)
         {
-            Directory.CreateDirectory(target.FullName);
-
-            // Copy each file into the new directory.
-            foreach (FileInfo fi in source.GetFiles())
+            directorySize = 1;
+            // Check file size and access of files
+            foreach (var dir in source.EnumerateDirectories())
             {
-                Console.WriteLine(@"Copying {0}\{1}", target.FullName, fi.Name);
-                fi.CopyTo(Path.Combine(target.FullName, fi.Name), false);
+                try
+                {
+                    foreach (var file in dir.EnumerateFiles("*", SearchOption.AllDirectories))
+                    {
+                        try
+                        {
+                            directorySize += file.Length;
+                            Console.WriteLine("File size is: " + file.Length);
+                        }
+                        catch (UnauthorizedAccessException unAuthFile)
+                        {
+                            MessageBox.Show($"unAuthFile: {unAuthFile.Message}");
+                        }
+                    }
+                }
+                catch (UnauthorizedAccessException unAuthSubDir)
+                {
+                    MessageBox.Show($"unAuthSubDir: {unAuthSubDir.Message}");
+                }
+            }
+        }
+
+        public void CopyAll(DirectoryInfo source, DirectoryInfo target)
+        {
+            long currBytes = 1;
+            
+            Directory.CreateDirectory(target.FullName);
+            // Copy each file into the new directory.
+            foreach (FileInfo file in source.GetFiles())
+            {
+                Console.WriteLine(@"Copying {0}\{1}", target.FullName, file.Name);
+                try
+                {
+                    file.CopyTo(Path.Combine(target.FullName, file.Name), false);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                currBytes += file.Length;
+                ProgressBar.Value = (int)((currBytes % directorySize));
             }
 
             // Copy each subdirectory using recursion.
@@ -129,6 +210,7 @@ namespace FilesSaver
         private void DateTimePicker_ValueChanged(object sender, EventArgs e)
         {
             ToggleTimerLabel(true);
+            ToggleActivatedLabel(false);
         }
 
         /// <summary>
@@ -146,23 +228,25 @@ namespace FilesSaver
             else
             {
                 TimerSet_label.Text = "Timer set";
-                TimerSet_label.ForeColor = Color.Green;
+                TimerSet_label.ForeColor = Color.LightGreen;
                 _timerSet = true;
             }
         }
 
-        private void ToggleActivateLabel(bool tog)
+        private void ToggleActivatedLabel(bool tog)
         {
             if (tog)
             {
                 ActivatedBox.Text = "Activated";
-                ActivatedBox.ForeColor = Color.Green;
+                ActivatedBox.ForeColor = Color.LightGreen;
+                ActivatedBox.Checked = true;
                 _timerActive = true;
             }
             else
             {
                 ActivatedBox.Text = "Not Activated";
                 ActivatedBox.ForeColor = Color.Red;
+                ActivatedBox.Checked = false;
                 _timerActive = false;
             }
         }
@@ -206,16 +290,18 @@ namespace FilesSaver
             if (!ActivatedBox.Checked)
             {
                 _timer.Enabled = false;
-                ToggleActivateLabel(false);
+                CopyCancel.Enabled = false;
+                ToggleActivatedLabel(false);
                 return;
             }
 
             if (ValidateDirectory(_sourcePath) && ValidateDirectory(_destinationPath) && _timerSet)
             {
                 _timerActive = ActivatedBox.Checked;
-                ToggleActivateLabel(true);
-                Source_label.ForeColor = Color.Green;
-                Destination_label.ForeColor = Color.Green;
+                ToggleActivatedLabel(true);
+                Source_label.ForeColor = Color.LightGreen;
+                Destination_label.ForeColor = Color.LightGreen;
+                CopyCancel.Enabled = true;
                 _timer.Enabled = true;
             }
             else if (!ValidateDirectory(_sourcePath))

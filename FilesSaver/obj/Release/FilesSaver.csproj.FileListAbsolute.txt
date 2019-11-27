@@ -1,0 +1,8 @@
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\bin\Release\FilesSaver.exe.config
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\bin\Release\FilesSaver.exe
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\bin\Release\FilesSaver.pdb
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Release\FilesSaver.Form1.resources
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Release\FilesSaver.Properties.Resources.resources
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Release\FilesSaver.csproj.GenerateResource.cache
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Release\FilesSaver.exe
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Release\FilesSaver.pdb
