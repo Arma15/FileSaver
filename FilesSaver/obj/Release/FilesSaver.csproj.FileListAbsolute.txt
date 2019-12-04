@@ -6,3 +6,7 @@ C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Releas
 C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Release\FilesSaver.csproj.GenerateResource.cache
 C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Release\FilesSaver.exe
 C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Release\FilesSaver.pdb
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Release\FilesSaver.csprojAssemblyReference.cache
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\bin\Release\log4net.dll
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\bin\Release\log4net.xml
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Release\FilesSaver.csproj.CopyComplete

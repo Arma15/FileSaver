@@ -1,6 +1,6 @@
 ﻿namespace FilesSaver
 {
-    partial class Form1
+    partial class MainUI
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainUI));
             this.Source = new System.Windows.Forms.Button();
             this.Destination = new System.Windows.Forms.Button();
             this.ActivatedBox = new System.Windows.Forms.CheckBox();
@@ -41,7 +42,7 @@
             this.SetTime_button = new System.Windows.Forms.Button();
             this.ProgressBar = new System.Windows.Forms.ProgressBar();
             this.CopyCancel = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Feedback = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -55,7 +56,7 @@
             this.Source.TabIndex = 0;
             this.Source.Text = "Browse for Source Folder";
             this.Source.UseVisualStyleBackColor = true;
-            this.Source.Click += new System.EventHandler(this.BrowseSource_Click);
+            this.Source.Click += new System.EventHandler(this.BtnBrowseSource_Click);
             // 
             // Destination
             // 
@@ -66,14 +67,14 @@
             this.Destination.TabIndex = 2;
             this.Destination.Text = "Browse for Destination Folder";
             this.Destination.UseVisualStyleBackColor = true;
-            this.Destination.Click += new System.EventHandler(this.BrowseDestination_Click);
+            this.Destination.Click += new System.EventHandler(this.BtnBrowseDestination_Click);
             // 
             // ActivatedBox
             // 
             this.ActivatedBox.AutoSize = true;
             this.ActivatedBox.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ActivatedBox.ForeColor = System.Drawing.Color.Red;
-            this.ActivatedBox.Location = new System.Drawing.Point(357, 200);
+            this.ActivatedBox.Location = new System.Drawing.Point(335, 200);
             this.ActivatedBox.Name = "ActivatedBox";
             this.ActivatedBox.Size = new System.Drawing.Size(102, 19);
             this.ActivatedBox.TabIndex = 3;
@@ -107,12 +108,14 @@
             // 
             this.DateTimePicker.CalendarFont = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DateTimePicker.CustomFormat = "hh:mm tt";
-            this.DateTimePicker.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DateTimePicker.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DateTimePicker.Location = new System.Drawing.Point(335, 111);
+            this.DateTimePicker.MaximumSize = new System.Drawing.Size(120, 40);
+            this.DateTimePicker.MinimumSize = new System.Drawing.Size(120, 30);
             this.DateTimePicker.Name = "DateTimePicker";
             this.DateTimePicker.ShowUpDown = true;
-            this.DateTimePicker.Size = new System.Drawing.Size(102, 23);
+            this.DateTimePicker.Size = new System.Drawing.Size(120, 30);
             this.DateTimePicker.TabIndex = 7;
             this.DateTimePicker.ValueChanged += new System.EventHandler(this.DateTimePicker_ValueChanged);
             // 
@@ -155,14 +158,14 @@
             this.TimerSet_label.ForeColor = System.Drawing.Color.Red;
             this.TimerSet_label.Location = new System.Drawing.Point(344, 93);
             this.TimerSet_label.Name = "TimerSet_label";
-            this.TimerSet_label.Size = new System.Drawing.Size(86, 15);
+            this.TimerSet_label.Size = new System.Drawing.Size(83, 15);
             this.TimerSet_label.TabIndex = 11;
-            this.TimerSet_label.Text = "Timer NOT set";
+            this.TimerSet_label.Text = "Timer Not set";
             // 
             // SetTime_button
             // 
             this.SetTime_button.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SetTime_button.Location = new System.Drawing.Point(347, 140);
+            this.SetTime_button.Location = new System.Drawing.Point(355, 147);
             this.SetTime_button.Name = "SetTime_button";
             this.SetTime_button.Size = new System.Drawing.Size(75, 23);
             this.SetTime_button.TabIndex = 12;
@@ -172,6 +175,7 @@
             // 
             // ProgressBar
             // 
+            this.ProgressBar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ProgressBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ProgressBar.Location = new System.Drawing.Point(594, 41);
             this.ProgressBar.Name = "ProgressBar";
@@ -187,30 +191,40 @@
             this.CopyCancel.Name = "CopyCancel";
             this.CopyCancel.Size = new System.Drawing.Size(75, 23);
             this.CopyCancel.TabIndex = 14;
-            this.CopyCancel.Text = "Copy now";
+            this.CopyCancel.Text = "Copy Now";
             this.CopyCancel.UseVisualStyleBackColor = true;
-            this.CopyCancel.Click += new System.EventHandler(this.CopyCancelBtn_Click);
+            this.CopyCancel.Visible = false;
+            this.CopyCancel.Click += new System.EventHandler(this.BtnCopy_Click);
             // 
-            // label1
+            // Feedback
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(675, 65);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 15);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "label1";
+            this.Feedback.AutoSize = true;
+            this.Feedback.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Feedback.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Feedback.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Feedback.Location = new System.Drawing.Point(591, 67);
+            this.Feedback.Name = "Feedback";
+            this.Feedback.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Feedback.Size = new System.Drawing.Size(119, 15);
+            this.Feedback.TabIndex = 15;
+            this.Feedback.Text = "Last transfered: N/A";
             // 
-            // Form1
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerReportsProgress = true;
+            this.backgroundWorker1.WorkerSupportsCancellation = true;
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.DoWork_Event);
+            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.ProgressChanged_Event);
+            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.RunWorkerCompleted_Event);
+            // 
+            // MainUI
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(818, 232);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Feedback);
             this.Controls.Add(this.CopyCancel);
             this.Controls.Add(this.ProgressBar);
             this.Controls.Add(this.SetTime_button);
@@ -226,12 +240,14 @@
             this.Controls.Add(this.Source);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.On;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "MainUI";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "File Saver";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainUI_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -253,7 +269,7 @@
         private System.Windows.Forms.Button SetTime_button;
         private System.Windows.Forms.ProgressBar ProgressBar;
         private System.Windows.Forms.Button CopyCancel;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Feedback;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

@@ -1,0 +1,455 @@
+2019-12-03 10:49:26,732 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 10:49:26,821 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 10:51:07,749 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 10:51:07,837 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 10:51:28,557 [1] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 10:51:28,568 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 10:51:28,860 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:29,357 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:29,667 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:30,649 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:30,926 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:31,731 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:32,092 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:32,366 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:34,273 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:34,706 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:38,413 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:38,693 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:44,258 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:50,861 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:51,144 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:56,687 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:51:57,071 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:52:01,715 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 10:52:01,762 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:52:08,699 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:52:08,976 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:52:16,698 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:52:20,761 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:52:26,696 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:52:27,773 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:52:36,717 [6] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 10:52:38,662 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 10:52:40,589 [1] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 10:52:40,595 [1] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 10:52:40,604 [1] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 10:53:11,720 [7] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:03:45,483 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 11:03:45,566 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 11:03:54,711 [1] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:03:54,723 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:03:54,889 [1] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:03:54,896 [1] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:04:36,052 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 11:04:36,141 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 11:04:49,661 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:04:49,671 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:04:49,972 [6] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:04:50,255 [7] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:04:50,802 [6] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:04:51,386 [7] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:04:51,961 [6] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:04:52,519 [7] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:04:53,006 [4] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:04:53,563 [7] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:04:54,195 [4] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:04:54,663 [7] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:04:54,773 [6] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:04:57,287 [4] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:04:59,663 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:05:00,379 [7] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:02,126 [4] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:03,890 [4] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:04,664 [7] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:05:07,795 [4] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:08,070 [7] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:09,665 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:05:11,931 [4] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:12,224 [7] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:14,665 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:05:15,682 [7] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:15,952 [4] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:17,046 [4] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:19,666 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:05:19,992 [7] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:20,264 [6] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:24,044 [4] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:24,342 [7] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:05:24,667 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:05:27,979 [4] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:32:43,086 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 11:32:43,174 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 11:33:01,973 [1] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:33:01,986 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:33:02,294 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:02,581 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:03,142 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:03,697 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:04,248 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:05,293 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:05,551 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:05,592 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:33:06,235 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:08,310 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:10,593 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:33:11,631 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:12,016 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:15,593 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:33:19,410 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:19,683 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:20,594 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:33:23,558 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:25,594 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:33:28,311 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:28,825 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:30,596 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:33:35,596 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:33:36,336 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:36,815 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:40,596 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:33:43,080 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:43,456 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:45,597 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:33:49,890 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:50,263 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:50,598 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:33:55,599 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:33:57,906 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:33:58,192 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:34:00,600 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:34:03,852 [1] INFO  FilesSaver.Form1 Progress updated and at: 1%
+2019-12-03 11:34:05,600 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:34:05,715 [1] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:34:05,722 [1] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:34:05,730 [1] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:34:10,601 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:34:24,248 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:34:24,257 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:34:24,293 [4] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:34:24,294 [5] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:34:29,249 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:34:29,255 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:34:29,288 [5] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:34:29,289 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:34:34,249 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:34:34,256 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:34:34,285 [5] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:34:34,285 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:34:39,252 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:34:39,258 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:34:39,285 [5] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:34:39,285 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:34:44,255 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:34:44,261 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:34:44,290 [5] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:34:44,291 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:34:49,258 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:34:49,265 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:34:49,293 [4] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:34:49,293 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:34:54,259 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:34:54,266 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:34:54,295 [5] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:34:54,295 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:34:59,262 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:34:59,270 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:34:59,300 [5] INFO  FilesSaver.Form1 Progress updated and at: 100%
+2019-12-03 11:34:59,300 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:35:04,264 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:35:09,264 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:35:14,265 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:39:13,153 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 11:39:13,242 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 11:43:15,349 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 11:43:15,433 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 11:47:34,899 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 11:47:35,010 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 11:47:48,366 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:47:48,376 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:47:48,410 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:47:53,368 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:47:53,374 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:47:53,403 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:47:58,371 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:47:58,377 [4] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:47:58,406 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:48:03,375 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:48:08,375 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:48:13,376 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:48:18,376 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:48:23,377 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:48:28,378 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:50:41,854 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 11:50:41,951 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 11:50:54,395 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:50:54,401 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:50:54,411 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:50:54,446 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:50:59,397 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:50:59,403 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:51:04,398 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:51:09,399 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:51:14,400 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:51:19,401 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:51:24,402 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:51:29,402 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:51:34,403 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:51:39,403 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:51:44,404 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:51:49,405 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:51:54,405 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:51:59,406 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:52:04,406 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:52:09,407 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:52:14,407 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:52:19,408 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:52:24,410 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:52:29,410 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:52:34,411 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:52:39,412 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:52:44,413 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:52:49,413 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:52:54,414 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:53:29,796 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 11:53:29,889 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 11:53:39,925 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:55:03,810 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 11:55:03,896 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 11:55:17,103 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:55:17,111 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:55:17,123 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:55:17,158 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:55:22,104 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:55:22,110 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:55:27,105 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:55:27,111 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:55:27,119 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:55:27,147 [4] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:55:32,106 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:55:32,111 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:55:37,106 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:55:37,113 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:55:37,119 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:55:37,148 [4] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:55:42,108 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:55:42,115 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:55:47,109 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:55:47,115 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:55:47,122 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:55:47,152 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:58:05,945 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 11:58:06,031 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 11:58:19,065 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:58:19,071 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:58:19,083 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:58:19,248 [4] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:58:24,067 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:58:24,073 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:58:29,067 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:58:29,073 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:58:29,080 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:58:29,110 [4] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:58:34,068 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:58:34,074 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:58:39,068 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:58:39,074 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:58:39,081 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:58:39,109 [4] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:58:44,072 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:58:44,077 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:58:49,073 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:58:49,079 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:58:49,087 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:58:49,116 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:58:54,074 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:58:54,079 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:58:59,074 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:58:59,080 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 11:58:59,087 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 11:58:59,116 [4] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 11:59:04,075 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:59:09,075 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:59:14,076 [6] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:59:19,077 [7] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:59:24,079 [8] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:59:29,083 [9] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:59:34,087 [10] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:59:39,089 [11] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:59:45,092 [12] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:59:51,095 [13] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 11:59:57,100 [14] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:00:03,103 [15] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:02:34,374 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 12:02:34,498 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 12:02:47,828 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:02:47,834 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 12:02:47,844 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 12:02:52,830 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:02:57,831 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:02,831 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:07,833 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:12,833 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:17,834 [7] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:22,835 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:27,836 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:32,837 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:37,837 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:42,838 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:47,839 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:52,840 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:03:57,840 [6] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:02,841 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:07,842 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:12,843 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:17,844 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:21,234 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 12:04:22,845 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:27,845 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:32,846 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:37,847 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:42,847 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:47,848 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:52,848 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:04:57,849 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:02,849 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:07,850 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:12,851 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:17,852 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:22,852 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:27,853 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:32,854 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:37,855 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:42,855 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:47,856 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:52,857 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:05:57,859 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:06:02,859 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:06:07,860 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:06:12,861 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:06:17,863 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:06:22,863 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:06:27,864 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:06:32,865 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:06:37,866 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:06:41,134 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 12:06:41,228 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 12:06:55,373 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:06:55,382 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 12:06:55,394 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 12:06:55,460 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 12:07:00,374 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:07:05,375 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:07:10,376 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:07:15,377 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:07:20,378 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:07:25,378 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:07:30,378 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:07:35,379 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:07:40,380 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:07:45,381 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:07:50,382 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:07:55,382 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:00,383 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:05,383 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:10,384 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:15,385 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:20,385 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:25,386 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:30,386 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:35,387 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:40,387 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:45,388 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:50,389 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:08:55,390 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:00,390 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:05,391 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:10,391 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:15,392 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:20,393 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:25,394 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:30,395 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:35,395 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:40,396 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:45,397 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:50,397 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:09:55,398 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:10:00,398 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:10:05,399 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:10:10,399 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:10:15,399 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:10:20,400 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:10:25,401 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:10:30,401 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:10:35,402 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:10:40,402 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:21:33,558 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 12:21:33,638 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 12:28:14,592 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 12:28:14,694 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 12:28:29,532 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:28:29,541 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 12:28:29,573 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 12:28:29,606 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 12:28:34,533 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:28:39,534 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:28:44,535 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:28:49,535 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:28:54,536 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:28:59,537 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:29:04,538 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:29:09,539 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:29:22,168 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:29:27,169 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:29:31,188 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 12:29:31,284 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 12:29:43,822 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:29:43,828 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 12:29:43,839 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 12:29:43,876 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 12:29:48,823 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:29:53,823 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:29:58,824 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:29:59,764 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 12:29:59,860 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 12:30:18,981 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:30:23,983 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:30:28,985 [6] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:30:33,989 [7] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:30:38,992 [8] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:30:46,193 [1] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 12:30:46,203 [9] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 12:30:57,160 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 12:30:57,260 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 12:31:18,911 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:31:23,912 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:31:28,914 [6] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:31:33,917 [7] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:31:38,920 [8] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:31:43,923 [9] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:31:48,926 [10] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:31:53,929 [11] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:31:59,934 [12] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:32:05,937 [13] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:32:11,941 [14] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:32:17,945 [15] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:32:56,357 [1] INFO  FilesSaver.Program Program started.
+2019-12-03 12:32:56,434 [1] INFO  FilesSaver.Form1 In Form1 constructor.
+2019-12-03 12:33:39,021 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:33:44,022 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:33:49,023 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:33:54,024 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:34:06,546 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:34:13,161 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:34:13,167 [4] INFO  FilesSaver.Form1 Copy Now Button activated.
+2019-12-03 12:34:13,177 [5] INFO  FilesSaver.Form1 DoWork activated, Directory size is: 9604128768
+2019-12-03 12:34:20,330 [5] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:34:20,334 [6] INFO  FilesSaver.Form1 File transfer is completed.
+2019-12-03 12:34:25,332 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:34:30,332 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:34:35,333 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:34:40,333 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:34:45,334 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:34:50,335 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:34:55,336 [4] INFO  FilesSaver.Form1 Timer event fired.
+2019-12-03 12:35:11,320 [4] INFO  FilesSaver.Form1 Timer event fired.

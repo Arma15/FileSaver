@@ -5,5 +5,10 @@ C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Debug\
 C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Debug\FilesSaver.csproj.GenerateResource.cache
 C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Debug\FilesSaver.exe
 C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Debug\FilesSaver.pdb
-C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Debug\FilesSaver.Form1.resources
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\bin\Debug\log4net.dll
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\bin\Debug\log4net.xml
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Debug\FilesSaver.csproj.CopyComplete
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\bin\Debug\Ookii.Dialogs.Wpf.dll
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\bin\Debug\Ookii.Dialogs.Wpf.xml
+C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Debug\FilesSaver.MainUI.resources
 C:\Users\3D Infotech.3DCA-LY520-12\source\repos\FilesSaver\FilesSaver\obj\Debug\FilesSaver.csprojAssemblyReference.cache
